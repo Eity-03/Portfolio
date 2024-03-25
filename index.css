@@ -44,6 +44,13 @@
     color: darkgrey;
     margin: 20px 0;
 }
+.etimg {
+    border-radius: 40%;
+    height: 220px;
+    width: 150px;
+    margin: 30px;
+    filter: saturate(.1);
+}
 
     
 
@@ -54,27 +61,29 @@ header{
     color: white;
     height: 70px;
     display: flex;
-    justify-content: center;
-    align-items: space-between;
+    justify-content: space-between;
+    align-items: center;
 }
  header div .heading{
     margin-top: 20px;
     font-size: 40px;
+    margin-left: 160PX;
 
 }
 .main-menu{
     float: right;
-    margin-left: 10px;
+    margin-right: 20px;
 
     }
 .main-menu ul li{
 display: inline-block;
-margin-left: 10px;}
+margin-left: 20px;
+}
 
 
 /* firstsection */
 .firstsection{
-   background-image: url(web1.jpg);
+   background-image: url(banner.png);
    color: white;
     background-repeat:no ;
     background-attachment: fixed;
@@ -97,13 +106,14 @@ margin-left: 10px;}
 .grid-single-item{
     padding: 50px;
     text-align: center;
+    justify-content: center;
 }
 .grid-single-item .fa-icon-size{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .grid-single-item p{
   
-  color: blue;
+  color: rgb(217, 15, 150);
 }
 .grid-single-item h2{
     margin: 15px;
@@ -111,9 +121,11 @@ margin-left: 10px;}
  /* work section */
  .work-single-img{
     width: 300px;
-    height:350px;;
+    height:350px;
 
  }
+ 
+ 
  /* testimonial section */
  .testimonial-p{
     color: black important ;
